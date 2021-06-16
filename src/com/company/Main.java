@@ -16,10 +16,16 @@ public class Main {
                 return false;
             return true;
         }
+        public void ispisi(Point[] points, int[] next) {
+            System.out.println("\nTacke : ");
+            for (int i = 0; i < next.length; i++)
+                if (next[i] != -1)
+                    System.out.println("(" + points[i].x + ", " + points[i].y + ")");
+        }
+        
     }
 
     public static void main(String[] args) {
-	    
-        
+
     }
 }
